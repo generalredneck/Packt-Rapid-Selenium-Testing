@@ -5,6 +5,9 @@ VAGRANT_DIR="/vagrant"
 # Branding...
 cat "$VAGRANT_DIR/chef/shell/vdd.txt"
 
+# Modified by Allan Chappell to add project branding
+cat "$VAGRANT_DIR/chef/shell/rst.txt"
+
 # Upgrade Chef.
 echo "Updating Chef to 11.12.4 version. This may take a few minutes..."
 apt-get update &> /dev/null
