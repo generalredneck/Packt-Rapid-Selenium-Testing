@@ -1,0 +1,30 @@
+{
+  "vm": {
+    "ip": "192.168.44.55",
+    "memory": "1024",
+    "synced_folders": [
+      {
+        "host_path": "data/",
+        "guest_path": "/var/www/selenium500.dev",
+        "type": "default"
+      }
+    ],
+    "forwarded_ports": []
+  },
+  "vdd": {
+    "sites": {
+      "selenium500": {
+        "account_name": "admin",
+        "account_pass": "pass123",
+        "account_mail": "admin@selenium500.dev",
+        "site_name": "Selenium 500",
+        "site_mail": "admin@selenium500.dev",
+        "vhost": {
+          "document_root": "selenium500",
+          "url": "selenium500.dev",
+          "alias": ["www.selenium500.dev"]
+        }
+      }
+    }
+  }
+}
